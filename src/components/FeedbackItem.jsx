@@ -13,7 +13,10 @@ const FeedbackItem = ({ item }) => {
       <div className="num-display">{item.rating}</div>
       <div className="text-display">{item.text}</div>
       <div>
-        <FaEdit style={{ marginRight: "10px" }} onClick={() => editFeedback(item)}/>
+        <FaEdit
+          style={{ marginRight: "15px" }}
+          onClick={() => editFeedback(item)}
+        />
         <FaTimes onClick={() => deleteFeedback(item.id)} />
       </div>
     </Card>
