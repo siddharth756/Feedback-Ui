@@ -1,0 +1,25 @@
+.card {
+  background-color: #913efc;
+  width: 600px;
+  padding: 15px;
+  margin: 15px auto 5px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.num-display {
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  width: 25px;
+  height: 25px;
+}
+
+.text-display {
+  width: 300px;
+}

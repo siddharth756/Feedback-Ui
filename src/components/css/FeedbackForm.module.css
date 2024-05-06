@@ -1,0 +1,59 @@
+.form {
+  width: 100%;
+}
+
+.h3 {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textInput {
+  width: 300px;
+
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 5px;
+}
+
+.sendButton {
+  border-radius: 8px;
+  padding: 3px 15px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #641aa4;
+  border: 2px solid rgb(240, 240, 240);
+  color: #f1e9e9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.sendButton:hover {
+  background-color: #53148b;
+  border: 2px solid rgb(240, 240, 240);
+}
+
+.textInput:focus,
+.textInput:focus-visible {
+  outline: none;
+  border: 3px solid rgb(50, 2, 82);
+}
+
+.sendDisableButton {
+  border-radius: 8px;
+  padding: 3px 15px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #641aa4;
+  border: 2px solid rgb(240, 240, 240);
+  color: #f1e9e9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  opacity: 0.4;
+}
